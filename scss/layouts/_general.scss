@@ -1,0 +1,27 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.green-text {
+  color: var(--color-primary-brand);
+  font-size: 18px;
+  line-height: 1.55;
+}
+
+.mark {
+  width: 18px;
+}
+
+.green-text-block {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 4px;
+}
+
+.green-background {
+  width: 28px;
+  height: 28px;
+  background-color: var(--color-secondary-light-green);
+  border-radius: 4px;
+}

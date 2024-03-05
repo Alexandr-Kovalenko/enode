@@ -1,0 +1,22 @@
+.link {
+  font-size: 15px;
+  line-height: 1.2;
+
+  &:hover {
+    color: var(--color-secondary-green);
+  }
+}
+
+.grey-link {
+  display: inline-flex;
+  gap: 8px;
+  padding: 4px 16px;
+  border-radius: 16px;
+  font-size: 15px;
+  line-height: 1.2;
+  background-color: var(--color-primary-grey);
+
+  &:hover {
+    background-color: var(--color-secondary-grey);
+  }
+}

@@ -1,0 +1,32 @@
+.hero-section {
+  padding: 54px 0 54px 40px;
+
+  &__container {
+    display: flex;
+    gap: 54px;
+  }
+
+  &__title {
+    margin-top: 122px;
+    font-size: 72px;
+    line-height: 0.9;
+    letter-spacing: 5px;
+  }
+
+  &__text {
+    max-width: 424px;
+    margin-top: 14px;
+    font-size: 18px;
+    line-height: 1.55;
+  }
+
+  &__buttons {
+    display: flex;
+    margin-top: 32px;
+    gap: 16px;
+  }
+
+  &__image {
+    z-index: 2;
+  }
+}

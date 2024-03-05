@@ -1,0 +1,39 @@
+.our-platform-section {
+  &__container {
+    padding: 80px 40px;
+  }
+
+  &__title {
+    margin-top: 4px;
+    margin-bottom: 74px;
+    max-width: 652px;
+    font-size: 40px;
+    line-height: 1;
+  }
+
+  &__text-container {
+    display: flex;
+    margin-bottom: 124px;
+    gap: 98px;
+  }
+
+  &__text-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 478px;
+    flex-grow: 1;
+    gap: 18px;
+  }
+
+  &__text {
+    font-size: 18px;
+    line-height: 1.55;
+  }
+
+  &__image {
+    max-width: 1120px;
+    background-color: var(--color-primary-grey);
+    border-radius: 16px;
+  }
+}

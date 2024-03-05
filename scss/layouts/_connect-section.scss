@@ -1,0 +1,28 @@
+.connect-section {
+  &__container {
+    padding-left: 40px;
+    display: flex;
+  }
+
+  &__text-container {
+    margin-top: 100px;
+  }
+
+  &__title {
+    max-width: 536px;
+    margin-bottom: 42px;
+    font-size: 40px;
+    line-height: 1;
+  }
+
+  &__text {
+    margin-bottom: 29px;
+    max-width: 446px;
+    font-size: 18px;
+    line-height: 1.55;
+  }
+
+  &__list {
+    margin-bottom: 42px;
+  }
+}

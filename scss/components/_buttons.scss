@@ -1,0 +1,23 @@
+.button {
+  padding: 8px 16px;
+  border-radius: 16px;
+  font-size: 15px;
+  line-height: 1.2;
+
+  &.green {
+    background-color: var(--color-primary-brand);
+    color: var(--color-text-liht);
+
+    &:hover {
+      background-color: var(--color-secondary-green);
+    }
+  }
+
+  &.grey {
+    background-color: var(--color-primary-grey);
+
+    &:hover {
+      background-color: var(--color-secondary-grey);
+    }
+  }
+}
