@@ -1,0 +1,29 @@
+.aggregate-section {
+  &__container {
+    display: flex;
+    padding-bottom: 80px;
+  }
+
+  &__text-container {
+    margin-top: 60px;
+    padding-left: 40px;
+  }
+
+  &__title {
+    margin-bottom: 42px;
+    max-width: 509px;
+    font-size: 40px;
+    line-height: 1;
+  }
+
+  &__text {
+    margin-bottom: 29px;
+    max-width: 480px;
+    font-size: 18px;
+    line-height: 1.55;
+  }
+
+  &__list {
+    margin-bottom: 42px;
+  }
+}

@@ -1,0 +1,24 @@
+.developers-section {
+  padding: 125px 0 136px 40px;
+  background-color: var(--color-secondary-black);
+
+  &__title {
+    margin-bottom: 42px;
+    max-width: 481px;
+    font-size: 40px;
+    line-height: 1;
+    color: var(--color-text-liht);
+  }
+
+  &__text {
+    max-width: 478px;
+    margin-bottom: 29px;
+    font-size: 18px;
+    line-height: 1.55;
+    color: var(--color-text-liht);
+  }
+
+  &__list {
+    margin-bottom: 42px;
+  }
+}

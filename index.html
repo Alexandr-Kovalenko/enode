@@ -11,7 +11,7 @@
     <header class="header">
       <div class="container header__container">
         <nav class="header__nav">
-          <a href="./index.html" class="header__logo">
+          <a href="./index.html">
             <img src="./images/logo.png" alt="logo" />
           </a>
           <ul class="header__menu">
@@ -210,38 +210,44 @@
       </div>
     </section>
     <section class="aggregate-section">
-      <div class="container">
-        <div>
-          <div>
-            <img src="./images/aggregate-image.svg" alt="aggregate image" />
-            <p>Aggregate</p>
+      <div class="container aggregate-section__container">
+        <div class="aggregate-section__text-container">
+          <div class="green-text-block">
+            <img
+              class="green-background"
+              src="./images/aggregate-image.svg"
+              alt="aggregate image"
+            />
+            <p class="green-text">Aggregate</p>
           </div>
 
-          <h2>Accelerate the transition to a sustainable future</h2>
-          <p>
+          <h2 class="aggregate-section__title">
+            Accelerate the transition to a sustainable future
+          </h2>
+          <p class="aggregate-section__text">
             Aggregation of flexible demand is key to a grid powered by renewable
             energy. By aggregating your customer's energy loads you can smooth
             out intermittencies caused by renewables. It also provides new
             revenue streams for your business.
           </p>
-          <ul>
-            <li>
-              <img src="./images/mark-list.svg" alt="mark list" />
+          <ul class="aggregate-section__list">
+            <li class="list-item">
+              <img class="mark" src="./images/mark-list.svg" alt="mark list" />
               <p>Participate in flexibility markets</p>
             </li>
-            <li>
-              <img src="./images/mark-list.svg" alt="mark list" />
+            <li class="list-item">
+              <img class="mark" src="./images/mark-list.svg" alt="mark list" />
               <p>Unlock new revenue streams</p>
             </li>
-            <li>
-              <img src="./images/mark-list.svg" alt="mark list" />
+            <li class="list-item">
+              <img class="mark" src="./images/mark-list.svg" alt="mark list" />
               <p>Monitoring, demand response and reporting APIs</p>
             </li>
           </ul>
-          <button type="button">
+          <a href="#" class="grey-link">
             Learn more
             <img src="./images/arrow.svg" alt="arrow" />
-          </button>
+          </a>
         </div>
         <div>
           <img
@@ -253,70 +259,82 @@
     </section>
     <section class="developers-section">
       <div class="container">
-        <p>By developers, for developers</p>
-        <h2>A single API for hundreds of green energy devices</h2>
-        <p>
+        <p class="green-text">By developers, for developers</p>
+        <h2 class="developers-section__title">
+          A single API for hundreds of green energy devices
+        </h2>
+        <p class="developers-section__text">
           Access and control 100s of EV models and energy devices through a few
           lines of code, and save months of tedious integration work.
         </p>
-        <ul>
-          <li>
-            <img src="./images/mark-list.svg" alt="mark list" />
-            <p>A single RESTful API for all connections</p>
+        <ul class="developers-section__list">
+          <li class="list-item">
+            <img class="mark" src="./images/mark-list.svg" alt="mark list" />
+            <p class="white-text">A single RESTful API for all connections</p>
           </li>
-          <li>
-            <img src="./images/mark-list.svg" alt="mark list" />
-            <p>Web and native SDKs for hardware connection</p>
+          <li class="list-item">
+            <img class="mark" src="./images/mark-list.svg" alt="mark list" />
+            <p class="white-text">
+              Web and native SDKs for hardware connection
+            </p>
           </li>
-          <li>
-            <img src="./images/mark-list.svg" alt="mark list" />
-            <p>Enterprise grade security by design</p>
+          <li class="list-item">
+            <img class="mark" src="./images/mark-list.svg" alt="mark list" />
+            <p class="white-text">Enterprise grade security by design</p>
           </li>
         </ul>
-        <button type="button">
-          Read our docs
+        <a href="#" class="green-link">
+          <p class="white-text link-text">Read our docs</p>
           <img src="./images/arrow.svg" alt="arrow" />
-        </button>
+        </a>
       </div>
     </section>
-    <section class="why-enodesection">
-      <div class="container">
+    <section class="why-enode-section">
+      <div class="container why-enode-section__container">
         <div>
-          <p>Why Enode</p>
-          <h2>
+          <p class="green-text">Why Enode</p>
+          <h2 class="why-enode-section__title">
             Join other industry leading companies to accelerate green energy
           </h2>
-          <p>
+          <p class="why-enode-section__text">
             Companies around the world, from startups to large energy providers,
             work with Enode to accelerate the transition to a renewable energy
             system. The apps and services we power prevent emitting several
             tonnes of CO. Every day and help consumers use energy in a smarter
             and greener way.
           </p>
-          <button type="button">
+          <a href="#" class="grey-link">
             About our company
             <img src="./images/arrow.svg" alt="arrow" />
-          </button>
+          </a>
         </div>
-        <div>
-          <div>
-            <div>
-              <h3>60+ million</h3>
-              <p>Energy customers reached</p>
+        <div class="why-enode-section__block-container">
+          <div class="why-enode-section__column left">
+            <div class="why-enode-section__item">
+              <h3 class="why-enode-section__item-title">60+ million</h3>
+              <p class="why-enode-section__item-text">
+                Energy customers reached
+              </p>
             </div>
-            <div>
-              <h3>100GWh+</h3>
-              <p>Managed through the Enode platform</p>
+            <div class="why-enode-section__item">
+              <h3 class="why-enode-section__item-title">100GWh+</h3>
+              <p class="why-enode-section__item-text">
+                Managed through the Enode platform
+              </p>
             </div>
           </div>
-          <div>
-            <div>
-              <h3>100+</h3>
-              <p>Energy hardware models supported</p>
+          <div class="why-enode-section__column right">
+            <div class="why-enode-section__item">
+              <h3 class="why-enode-section__item-title">100+</h3>
+              <p class="why-enode-section__item-text">
+                Energy hardware models supported
+              </p>
             </div>
-            <div>
-              <h3>25%</h3>
-              <p>Average savings using Enode's Smart Charging</p>
+            <div class="why-enode-section__item">
+              <h3 class="why-enode-section__item-title">25%</h3>
+              <p class="why-enode-section__item-text">
+                Average savings using Enode's Smart Charging
+              </p>
             </div>
           </div>
         </div>
@@ -324,150 +342,200 @@
     </section>
     <section class="use-cases-section" id="use-cases">
       <div class="container">
-        <h2>Use cases</h2>
-        <ul>
-          <li>
+        <h2 class="use-cases-section__title">Use cases</h2>
+        <ul class="use-cases-section__list-use">
+          <li class="use-cases-section__item">
             <article>
-              <img src="./images/smart-charging.svg" alt="smart charging" />
-              <p>Smart charging</p>
-              <p>
+              <img
+                class="light-green-background"
+                src="./images/smart-charging.svg"
+                alt="smart charging"
+              />
+              <p class="use-cases-section__text">Smart charging</p>
+              <p class="use-cases-section__text">
                 Optimize the charging of your customers EV with the click of a
                 button
               </p>
-              <a href="#">
-                Learn more
+              <a href="#" class="transparent-link">
+                <p class="green-text link-text">Learn more</p>
                 <img src="./images/arrow.svg" alt="arrow" />
               </a>
             </article>
           </li>
-          <li>
+          <li class="use-cases-section__item">
             <article>
               <img
+                class="light-green-background"
                 src="./images/energy-management.svg"
                 alt="energy management"
               />
-              <p>Energy management and insights</p>
-              <p>Give your customers insight about their energy consumption</p>
-              <a href="#">
-                Learn more
+              <p class="use-cases-section__text">
+                Energy management and insights
+              </p>
+              <p class="use-cases-section__text">
+                Give your customers insight about their energy consumption
+              </p>
+              <a href="#" class="transparent-link">
+                <p class="green-text link-text">Learn more</p>
                 <img src="./images/arrow.svg" alt="arrow" />
               </a>
             </article>
           </li>
-          <li>
+          <li class="use-cases-section__item">
             <article>
-              <img src="./images/demand-response.svg" alt="demand response" />
-              <p>Demand response</p>
-              <p>Unlock the ability to participate in flexibility markets</p>
-              <a href="#">
-                Learn more
+              <img
+                class="light-green-background"
+                src="./images/demand-response.svg"
+                alt="demand response"
+              />
+              <p class="use-cases-section__text">Demand response</p>
+              <p class="use-cases-section__text">
+                Unlock the ability to participate in flexibility markets
+              </p>
+              <a href="#" class="transparent-link">
+                <p class="green-text link-text">Learn more</p>
                 <img src="./images/arrow.svg" alt="arrow" />
               </a>
             </article>
           </li>
-          <li>
+          <li class="use-cases-section__item">
             <article>
-              <img src="./images/e-mobility.svg" alt="e-mobility" />
-              <p>E-mobility</p>
-              <p>
+              <img
+                class="light-green-background"
+                src="./images/e-mobility.svg"
+                alt="e-mobility"
+              />
+              <p class="use-cases-section__text">E-mobility</p>
+              <p class="use-cases-section__text">
                 Provide smart route planning and rich EV data during public
                 charging
               </p>
-              <a href="#">
-                Learn more
+              <a href="#" class="transparent-link">
+                <p class="green-text link-text">Learn more</p>
                 <img src="./images/arrow.svg" alt="arrow" />
               </a>
             </article>
           </li>
         </ul>
-        <div>
-          <h2>Industries and applications</h2>
-          <a href="#">
-            Learn more
-            <img src="./images/arrow.svg" alt="arrow" />
+        <div class="use-cases-section__title-block">
+          <h2 class="use-cases-section__title">Industries and applications</h2>
+          <a href="#" class="transparent-link">
+            <p class="green-text link-text">Learn more</p>
+            <img
+              class="use-cases-section__arrow"
+              src="./images/arrow.svg"
+              alt="arrow"
+            />
           </a>
         </div>
-        <ul>
-          <li>
+        <ul class="use-cases-section__list-industries">
+          <li class="use-cases-section__item">
             <article>
-              <img src="./images/energy-companies.svg" alt="energy companies" />
-              <p>Energy companies</p>
-              <p>
+              <img
+                class="light-green-background"
+                src="./images/energy-companies.svg"
+                alt="energy companies"
+              />
+              <p class="use-cases-section__text">Energy companies</p>
+              <p class="use-cases-section__text">
                 Create engaging energy apps that increase retention and enable
                 demand response revenue streams
               </p>
             </article>
           </li>
-          <li>
+          <li class="use-cases-section__item">
             <article>
-              <img src="./images/energy-startups.svg" alt="energy startups" />
-              <p>Energy startups and apps</p>
-              <p>
+              <img
+                class="light-green-background"
+                src="./images/energy-startups.svg"
+                alt="energy startups"
+              />
+              <p class="use-cases-section__text">Energy startups and apps</p>
+              <p class="use-cases-section__text">
                 Build the next wave of green energy apps, connecting directly to
                 your users' hardware
               </p>
             </article>
           </li>
-          <li>
+          <li class="use-cases-section__item">
             <article>
               <img
+                class="light-green-background"
                 src="./images/e-mobility-providers.svg"
                 alt="e-mobility providers"
               />
-              <p>E-mobility providers</p>
-              <p>
+              <p class="use-cases-section__text">E-mobility providers</p>
+              <p class="use-cases-section__text">
                 Get real-time EV and charging data across multiple OEMs into
                 your apps and services
               </p>
             </article>
           </li>
-          <li>
+          <li class="use-cases-section__item">
             <article>
-              <img src="./images/demand-response.svg" alt="demand response" />
-              <p>DERMS</p>
-              <p>
+              <img
+                class="light-green-background"
+                src="./images/demand-response.svg"
+                alt="demand response"
+              />
+              <p class="use-cases-section__text">DERMS</p>
+              <p class="use-cases-section__text">
                 Create residential DR programs with direct access to user's EVs,
                 thermostats and more
               </p>
             </article>
           </li>
-        </ul>
-        <ul>
-          <li>
+          <li class="use-cases-section__item">
             <article>
-              <img src="./images/e-mobility.svg" alt="e-mobility" />
-              <p>EV fleet managers</p>
-              <p>
+              <img
+                class="light-green-background"
+                src="./images/e-mobility.svg"
+                alt="e-mobility"
+              />
+              <p class="use-cases-section__text">EV fleet managers</p>
+              <p class="use-cases-section__text">
                 Get SoC and location from your entire fleet in real time - at a
                 fraction of the cost compared to OBD
               </p>
             </article>
           </li>
-          <li>
+          <li class="use-cases-section__item">
             <article>
-              <img src="./images/utlity.svg" alt="utility" />
-              <p>Utility and grid owners</p>
-              <p>
+              <img
+                class="light-green-background"
+                src="./images/utlity.svg"
+                alt="utility"
+              />
+              <p class="use-cases-section__text">Utility and grid owners</p>
+              <p class="use-cases-section__text">
                 Anticipate grid constraints with aggregated EV data and build
                 demand response programs at scale
               </p>
             </article>
           </li>
-          <li>
+          <li class="use-cases-section__item">
             <article>
-              <img src="./images/smart-home.svg" alt="smart home" />
-              <p>Smart home providers</p>
-              <p>
+              <img
+                class="light-green-background"
+                src="./images/smart-home.svg"
+                alt="smart home"
+              />
+              <p class="use-cases-section__text">Smart home providers</p>
+              <p class="use-cases-section__text">
                 Integrate EVs, thermostats and other energy hardware into your
                 solution - no hardware hub required
               </p>
             </article>
           </li>
-          <li>
+          <li class="use-cases-section__item">
             <article>
-              <img src="./images/do-not-see.svg" alt="do not see" />
-              <p>Don’t see your industry?</p>
-              <p>
+              <img
+                class="grey-background"
+                src="./images/do-not-see.svg"
+                alt="do not see"
+              />
+              <p class="use-cases-section__text">Don’t see your industry?</p>
+              <p class="use-cases-section__text">
                 We also partner with other types of companies. Reach out to
                 learn what we can build together!
               </p>
@@ -478,71 +546,75 @@
     </section>
     <section class="blog-section">
       <div class="container">
-        <div>
-          <h2>Latest from the blog</h2>
-          <a href="#">
-            View all
+        <div class="blog-section__title-container">
+          <h2 class="blog-section__title">Latest from the blog</h2>
+          <a href="#" class="transparent-link">
+            <p class="green-text link-text">View all</p>
             <img src="./images/arrow.svg" alt="arrow" />
           </a>
         </div>
-        <ul>
-          <li>
+        <ul class="blog-section__list">
+          <li class="blog-section__item">
             <article>
-              <p>Product update</p>
-              <p>Enode is now open to everyone, everywhere</p>
-              <p>
+              <h3 class="blog-section__item-title">Product update</h3>
+              <p class="blog-section__text">
+                Enode is now open to everyone, everywhere
+              </p>
+              <p class="blog-section__text">
                 We’re excited to share that we’re opening access to our
                 platform, at no cost to get started. Sign up and start building!
               </p>
-              <a href="#">
-                Read more
+              <a href="#" class="transparent-link">
+                <p class="green-text link-text">Read more</p>
                 <img src="./images/arrow.svg" alt="arrow" />
               </a>
             </article>
           </li>
-          <li>
+          <li class="blog-section__item">
             <article>
-              <p>Product update</p>
-              <p>Support for new electric vehicles, solar inverters and more</p>
-              <p>
+              <h3 class="blog-section__item-title">Product update</h3>
+              <p class="blog-section__text">
+                Support for new electric vehicles, solar inverters and more
+              </p>
+              <p class="blog-section__text">
                 Today we’re releasing support for even more electric vehicle
                 brands and models, solar inverters, and additional command
                 functionality.
               </p>
-              <a href="#">
-                Read more
+              <a href="#" class="transparent-link">
+                <p class="green-text link-text">Read more</p>
                 <img src="./images/arrow.svg" alt="arrow" />
               </a>
             </article>
           </li>
-          <li>
+          <li class="blog-section__item">
             <article>
-              <p>Company</p>
-              <p>
+              <h3 class="blog-section__item-title">Company</h3>
+              <p class="blog-section__text">
                 Enode raises $15M to accelerate the world’s energy transition
               </p>
-              <p>
+              <p class="blog-section__text">
                 We’ve raised a $15M Series A to build the digital infrastructure
                 for a sustainable energy system, and make it easier for the
                 world to transition towards renewable energy
               </p>
-              <a href="#">
-                Read more
+              <a href="#" class="transparent-link">
+                <p class="green-text link-text">Read more</p>
                 <img src="./images/arrow.svg" alt="arrow" />
               </a>
             </article>
           </li>
-          <li>
+          <li class="blog-section__item">
             <article>
-              <p>Partnership</p>
-              <p>Carge partners with Enode</p>
-              <p>
+              <h3 class="blog-section__item-title">Partnership</h3>
+              <p class="blog-section__text">Carge partners with Enode</p>
+              <p class="blog-section__text">
                 Carge is a Greek startup that makes charging your EV super easy.
                 They are building the ideal EV roadtrip experience so users can
                 have relax and enjoy the ride.
               </p>
-              <a href="#">
-                Read more
+              <a href="#" class="transparent-link">
+                <p class="green-text link-text">Read more</p>
                 <img src="./images/arrow.svg" alt="arrow" />
               </a>
             </article>
@@ -551,55 +623,62 @@
       </div>
     </section>
     <section class="start-building-section">
-      <div class="container">
+      <div class="container start-building-section__container">
         <div>
-          <h2>Ready to get started?</h2>
-          <p>
+          <h2 class="start-building-section__title">Ready to get started?</h2>
+          <p class="start-building-section__text">
             Start exploring our APIs for free with our, or get in touch to have
             us put together a custom plan for your company.
           </p>
-          <button class="green-button" type="button">Start building</button>
-          <button class="grey-button" type="button">Contact sales</button>
+          <div class="start-building-section__buttons">
+            <button class="button green" type="button">Start building</button>
+            <button class="button grey" type="button">Contact sales</button>
+          </div>
         </div>
         <img
+          class="start-building-section__image"
           src="./images/start-building-image.png"
           alt="start building image"
         />
       </div>
     </section>
     <section class="form-section">
-      <div class="container">
-        <div>
-          <img src="./images/email.svg" alt="email icon" />
+      <div class="container form-section__container">
+        <div class="form-section__text-container">
+          <img
+            class="light-green-background"
+            src="./images/email.svg"
+            alt="email icon"
+          />
           <div>
-            <h2>Lead the transition to open energy</h2>
-            <p>
+            <h2 class="form-section__title">
+              Lead the transition to open energy
+            </h2>
+            <p class="form-section__text">
               Subscribe to our monthly newsletter for the latest insights and
               inspiration
             </p>
           </div>
         </div>
-        <form>
+        <form class="form-section__form">
           <input
+            class="form-section__input"
             type="email"
             name="email"
             placeholder="E-mail address"
             required
           />
-          <button type="submit">
-            Sign up
-            <img src="./images/arrow.svg" alt="arrow" />
-          </button>
+          <button type="submit" class="button green">Sign up</button>
         </form>
       </div>
     </section>
     <footer class="footer">
-      <div class="container">
-        <nav class="header__nav">
-          <div class="header__logo">
+      <div class="container footer__container">
+        <nav class="footer__nav">
+          <a href="./index.html">
             <img src="./images/logo.png" alt="logo" />
-          </div>
-          <ul class="header__menu">
+          </a>
+          <ul class="footer__menu">
             <li><a href="#" class="link">Products</a></li>
             <li><a href="#use-cases" class="link">Use cases</a></li>
             <li><a href="#" class="link">Pricing</a></li>

@@ -5,12 +5,15 @@
 
 .green-text {
   color: var(--color-primary-brand);
-  font-size: 18px;
-  line-height: 1.55;
+}
+
+.white-text {
+  color: var(--color-text-liht);
 }
 
 .mark {
   width: 18px;
+  height: 18px;
 }
 
 .green-text-block {
@@ -24,4 +27,22 @@
   height: 28px;
   background-color: var(--color-secondary-light-green);
   border-radius: 4px;
+}
+
+.light-green-background {
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  background-color: var(--color-primary-light-green);
+  border-radius: 4px;
+  margin-bottom: 14px;
+}
+
+.grey-background {
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  background-color: var(--color-secondary-grey);
+  border-radius: 4px;
+  margin-bottom: 14px;
 }

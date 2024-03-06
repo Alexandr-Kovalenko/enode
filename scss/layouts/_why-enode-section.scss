@@ -1,0 +1,64 @@
+.why-enode-section {
+  padding: 120px 40px 132px;
+
+  &__container {
+    display: flex;
+    gap: 34px;
+  }
+
+  &__title {
+    margin-bottom: 42px;
+    max-width: 542px;
+    font-size: 40px;
+    line-height: 1;
+  }
+
+  &__text {
+    margin-bottom: 42px;
+    max-width: 448px;
+    font-size: 18px;
+    line-height: 1.55;
+  }
+
+  &__block-container {
+    display: flex;
+    gap: 16px;
+  }
+
+  &__column {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    &.left {
+      position: relative;
+      top: 100px;
+    }
+
+    &.right {
+      position: relative;
+      top: 68px;
+    }
+  }
+
+  &__item {
+    padding: 23px 0 0 32px;
+    flex-basis: 264px;
+    max-height: 148px;
+    background-color: var(--color-secondary-light-green);
+    border-radius: 16px;
+  }
+
+  &__item-title {
+    margin-bottom: 16px;
+    font-size: 40px;
+    line-height: 1;
+    color: var(--color-primary-brand);
+  }
+
+  &__item-text {
+    font-size: 15px;
+    line-height: 1.2;
+    color: var(--color-primary-brand);
+  }
+}

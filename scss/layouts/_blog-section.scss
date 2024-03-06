@@ -1,0 +1,39 @@
+.blog-section {
+  padding: 113px 40px 122px;
+
+  &__title-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 88px;
+  }
+
+  &__title {
+    font-size: 25px;
+    line-height: 1.12;
+  }
+
+  &__list {
+    display: flex;
+    gap: 48px;
+  }
+
+  &__item {
+    flex-basis: 250px;
+  }
+
+  &__item-title {
+    display: inline-block;
+    padding: 4px 8px;
+    margin-bottom: 14px;
+    font-size: 12px;
+    line-height: 1;
+    background-color: var(--color-secondary-light-green);
+    border-radius: 24px;
+  }
+
+  &__text {
+    margin-bottom: 8px;
+    font-size: 15px;
+    line-height: 1.2;
+  }
+}

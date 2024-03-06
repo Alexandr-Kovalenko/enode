@@ -1,0 +1,33 @@
+.form-section {
+  padding: 24px 40px;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__text-container {
+    display: flex;
+    gap: 16px;
+  }
+
+  &__title {
+    font-size: 17px;
+    line-height: 1.64;
+  }
+
+  &__text {
+    font-size: 15px;
+    line-height: 1.12;
+  }
+
+  &__input {
+    position: relative;
+    width: 260px;
+    height: 40px;
+    margin-right: 32px;
+    padding: 8px 16px;
+    border: 1px solid var(--color-secondary-grey);
+    border-radius: 8px;
+  }
+}
